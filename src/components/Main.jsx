@@ -1,13 +1,9 @@
-import React, { useEffect, useRef, useCallback } from "react";
+import React, { useRef, useCallback } from "react";
 import { useState } from "react";
-import { sampleData } from "./sample";
 import _ from "lodash";
-import Input from "@mui/material/Input";
 import ResultCard from "./ResultCard";
 import { Box, Typography } from "@mui/material";
-import numeral from "numeral";
 import useQuery from "../hooks/useQuery";
-import SampleRes from "./SampleRes";
 
 import Loader from "./Loader";
 import Error from "./Error";

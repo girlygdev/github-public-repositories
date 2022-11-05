@@ -10,7 +10,7 @@ import Main from "./components/Main";
 import Copyright from "./components/Copyright";
 
 const App = () => {
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState("dark")
   const pageTheme = MuiTheme({ mode: theme })
 
   return (
